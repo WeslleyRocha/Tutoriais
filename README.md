@@ -11,10 +11,10 @@ disponíveis para quando quiser consultá-los novamente.<br><br>
 Para fazer isso, você decide implementar um serviço REST que permite alcançá-lo.
 
 Uma entidade chamada “Tutorial” deve ser criada com os seguintes atributos:<br>
-● ID do tutorial.<br>
-● Título do tutorial.<br>
-● Descrição do tutorial.<br>
-● Situação da publicação.<br>
+- ID do tutorial.<br>
+- Título do tutorial.<br>
+- Descrição do tutorial.<br>
+- Situação da publicação.<br>
 
 A API deve ser capaz de:
 1. Criar, recuperar, atualizar e excluir tutoriais.<br>
