@@ -6,8 +6,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
-@Getter
-@Setter
+@Data
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
@@ -20,16 +19,16 @@ public class Tutoriais {
 
 	@NotBlank
 	@NotNull
-	@Column(nullable = false, length = 10)
+	@Column(nullable = false, length = 100)
 	private String tituloTutorial;
 
 	@NotBlank
 	@NotNull
-	@Column(nullable = false, length = 50)
+	@Column(nullable = false, length = 100)
 	private String descricaoTutorial;
 
 	@NotBlank
 	@NotNull
-	@Column(nullable = false, length = 10)
+	@Column(nullable = false, length = 100)
 	private String situacaoPublicacao;
 }
