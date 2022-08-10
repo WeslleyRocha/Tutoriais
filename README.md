@@ -21,11 +21,11 @@ A API deve ser capaz de:
 2. Dê suporte a métodos de pesquisa personalizados, como pesquisar por status de publicação ou por título.<br>
 
 **MÉTODO - URI - AÇÃO**<br>
-POST - /api/tutorials - Crie um novo Tutorial.<br>
-GET - /api/tutorials - Retornar todos os tutoriais.<br>
-GET - /api/tutorials/id - Retornar um tutorial por id.<br>
-PUT - /api/tutorials/id -  Atualizar um tutorial por id.<br>
-DELETE - /api/tutorials - Excluir todos os tutoriais.<br>
-DELETE - /api/tutorials/id - Excluir um tutorial por id.<br>
-GET - /api/tutorials/published - Buscar todos os tutoriais publicados.<br>
-GET - /api/tutorials?title=Spring - Buscar todos os tutoriais que tenham a palavra “Spring” no título.<br>
+✅ POST - /api/tutorials - Crie um novo Tutorial.<br>
+✅ GET - /api/tutorials - Retornar todos os tutoriais.<br>
+✅ GET - /api/tutorials/id - Retornar um tutorial por id.<br>
+✅ PUT - /api/tutorials/id -  Atualizar um tutorial por id.<br>
+⏳ DELETE - /api/tutorials - Excluir todos os tutoriais.<br>
+✅ DELETE - /api/tutorials/id - Excluir um tutorial por id.<br>
+⏳ GET - /api/tutorials/published - Buscar todos os tutoriais publicados.<br>
+⏳ GET - /api/tutorials?title=Spring - Buscar todos os tutoriais que tenham a palavra “Spring” no título.<br>
